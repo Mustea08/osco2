@@ -162,9 +162,16 @@ div.descr{
   background-color: #f7b941;
   color: #030303 !important;
 }
+.btn a{
+  text-decoration: none;
+  color: #030303 !important;
+}
 .btn:hover{
   color: #f3f0f0 !important;
   background-color: #030303;
+}
+.btn:hover a{
+  color: #f3f0f0 !important;
 }
 
 /* ------------------------==================== */
@@ -189,4 +196,16 @@ div.descr{
 /* --------------footer-------------- */
 footer{
   background: #2e4748;
+}
+
+
+/* ====================================================
+====================request-qoute page=================
+======================================================= */
+.quote input, .quote select, .quote textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  padding: 1rem .1rem;
 }
