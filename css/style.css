@@ -21,6 +21,10 @@ nav{
 .nav-link{
   color: #f2f2f2;
 }
+.nav-link:hover{
+  color: #f7b941;
+  transform: scale(1.1);
+}
 div.descr{
   width: 100%;
   height: 85vh;
@@ -180,4 +184,9 @@ div.descr{
 }
 .card:hover img{
   transform: scale(1.2);
+}
+
+/* --------------footer-------------- */
+footer{
+  background: #2e4748;
 }
