@@ -12,10 +12,14 @@ body{
 .home{
   max-height: 100vh;
   width: 100%;
-  background: rgb(243, 240, 240);
+  /* background: rgb(243, 240, 240); */
+  background: #2e4748;
 }
 nav{
   z-index: 2;
+}
+.nav-link{
+  color: #f2f2f2;
 }
 div.descr{
   width: 100%;
@@ -52,7 +56,7 @@ div.descr{
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  background-color: #f7b941;
+  background-color: #020202;
   position: absolute;
   top: -30px;
   left: 10px;
@@ -116,14 +120,12 @@ div.descr{
   100%{top:-20px; left: 0px;}
 }
 @keyframes circleTwo{
-  
-  30%{left: 100px;}
-  50%{left: 200px;}
-  70%{left: 200px;}
-  100%{top:-20px; left: 0px;}
+  30%{left: 100px; background: #020202;}
+  50%{left: 200px; background: linear-gradient(#020202, #020202);}
+  70%{left: 200px; background: linear-gradient(#020202, #020202);}
+  100%{top:-20px; left: 0px; background: #020202;}
 }
 @keyframes circleThree{
-  
   30%{top: 100px;}
   50%{top: 200px;}
   70%{top: 300px;}
@@ -151,10 +153,20 @@ div.descr{
   100%{top:-20px; right: 125px;}
 }
 
+.btn{
+  /* background-color: #2e4748; */
+  background-color: #f7b941;
+  color: #030303 !important;
+}
+.btn:hover{
+  color: #f3f0f0 !important;
+  background-color: #030303;
+}
+
 /* ------------------------==================== */
 
 .choose{
-  background: #40916c;
+  background: #2e4748;
 }
 
 .commercial{
@@ -165,4 +177,7 @@ div.descr{
 
 .other-services{
   background: #f2f2f2;
+}
+.card:hover img{
+  transform: scale(1.2);
 }
