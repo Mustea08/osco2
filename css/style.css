@@ -41,6 +41,8 @@ div.descr{
   z-index: 2;
 }
 .descr p{
+  text-align: center;
+  margin: 0 1rem;
   font-size: 1.5rem;
   z-index: 2;
 }
